@@ -1,0 +1,23 @@
+#Ejemplo 1 > ((A + B) × C) − D
+#Resultado esperado > 15
+
+LOAD A,3
+LOAD B,2
+ADD E,A,B
+LOAD C,4
+MUL F,E,C
+LOAD D,5
+SUB G,F,D
+STOP
+
+#Ejemplo 2 > ((A × B) − C) − D
+#Resultado esperado > -11
+
+LOAD A,2
+LOAD B,3
+MUL E,A,B
+LOAD C,10
+SUB F,E,C
+LOAD D,7
+SUB G,F,D
+STOP
